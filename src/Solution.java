@@ -12,33 +12,34 @@ public class Solution {
         return sum;
     }
 
-//    public long trailingZeros(long n) {
-//        // write your code here, try to do it without arithmetic operators.
-//        long jg = jc(n);
-//        return numberZero(jg);
-//
-//    }
-//
-//    public static long jc(long a) {
-//        long jg = 1;
-//        for(;a>=1;a--) {
-//            jg*=a;
-//        }
-//        return jg;
-//    }
-//    public  static int numberZero(long n) {
-//        String s = "" + n;
-//        char[] ss = s.toCharArray();
-//        int num = 0;
-//        int len = ss.length;
-//        for(int i=1;i<=len;i++){
-//            if(ss[len-i]==48){
-//                num++;
-//            }else{
-//                break;
-//            }
-//
-//        }
-//        return num;
-//    }
+/*    下面这个算法只能计算20以内阶乘，否则会long类型溢出
+    public long trailingZeros(long n) {
+        // write your code here, try to do it without arithmetic operators.
+        long jg = jc(n);
+        return numberZero(jg);
+
+    }
+
+    public static long jc(long a) {
+        long jg = 1;
+        for(;a>=1;a--) {
+            jg*=a;
+        }
+        return jg;
+    }
+    public  static int numberZero(long n) {
+        String s = "" + n;
+        char[] ss = s.toCharArray();
+        int num = 0;
+        int len = ss.length;
+        for(int i=1;i<=len;i++){
+            if(ss[len-i]==48){
+                num++;
+            }else{
+                break;
+            }
+
+        }
+        return num;
+    }*/
 }
